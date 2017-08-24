@@ -5,10 +5,20 @@
  */
 
 header {
-  padding: 154px 0 100px;
+  padding: 0 0 100px;
   
 }
 
+header h1 {
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 50px;
+}
+header p{
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 35px;
+}
 @media (min-width: 992px) {
   header {
     padding: 156px 0 100px;
@@ -19,8 +29,14 @@ section {
   padding: 150px 0;
 }
 
-#about{
-	background-color: rgb(197, 197, 197, 0.5);
+section#about{
+	background-color: #ede4c7;
+}
+
+section .happy{
+  border-radius: 40%;
+  width: 304px;
+  height: 335px;
 }
 hr.style-two {
     border: 0;
