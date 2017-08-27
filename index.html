@@ -65,21 +65,21 @@
       <h1 class="aboutMe">About me</h1>
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4" id='test'>
             <img src="img/headshot.jpg" class="happy" alt="Jackie and I">
           </div>
             <div class=col-lg-3>
             </div>
           <div class="col-lg-5 myStory">
-            <h2 style="color: red;">About me</h2>
+          
             <p class="lead">I am a dynamic self-starter with over 6 years’ experience in sales, customer service, key account management, long term territory management, and customer relations. I also have experience with leading agronomic development teams. I am seeking to transition into the tech industry as an up-front developer with a long-term goal of working in management. I enjoy cycling, being outdoors, team based sports and I am a 7 time Marriott Platinum  Member and never met a burrito I didn't like.
             <h4>Quick links:</h4>
                <!-- Place this tag where you want the button to render. -->
-               <div class="btn-group" role="group" aria-label="proLinks">
+              <!--  <div class="btn-group"  aria-label="proLinks"> -->
               <a class="github-button" href="https://github.com/ahephner" data-size="large" aria-label="Follow @ahephner on GitHub">Follow @ahephner</a>
               <a type="button" class="btn btn-secondary btn-small" href="https://www.linkedin.com/in/aj-hephner-25943a6b/" target="_blank" >Linkedin</a>
               <a type="button" class="btn btn-secondary btn-small" href="https://www.linkedin.com/in/aj-hephner-25943a6b/" target="_blank" >Resume</a>
-              </div>
+           <!--    </div> -->
           
             </p>
 <!--             <ul>
@@ -153,12 +153,22 @@
                         <hr class="style-two">
                         <hr class="style-two">
 
-    <section id="contact">
+    <section id="contact" style="background-image: url('img/email.jpeg');">
+    
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        <div class="col-lg-6"></div>
+          <div class="col-lg-6 mx-auto message">
+            <h2>Email me:</h2>
+            <h3>Please enter your information below</h3>
+            <form action="https://formspree.io/ajhephner178@email.com"
+      method="POST">
+    <input style="height:40px;font-size: 13pt;" class="form-control" type="text" name="name" size="50" placeholder="Your Name">
+    <input style="height:40px;font-size: 13pt;" class="form-control" type="email" name="_replyto" size="50" placeholder="Email">
+    <input style="height:40px;font-size: 13pt;" class="form-control" type="text" name="message" size="50" placeholder="Your message">
+    <input style="background-color: grey" type="submit" value="Send">
+</form>
+          </div>
           </div>
         </div>
       </div>
@@ -167,12 +177,13 @@
                         <hr class="style-two">
                         <hr class="style-two">
 
-    <section id="education">
-    <h1>Education and Work Experience</h1>
-      <div class="container">
+<!--     <section id="education">
+      <h1>Education and Work Experience</h1>
+    <div class="container">
+
         <div class="row">
           <div class="col-lg-4">
-            <img href="#" src="img/boston.jpg" class="happy" alt="Boston">
+            <img href="#" src="img/boston.jpg" class="boston" alt="Boston">
           </div>
           <div class="col-lg-8">
           <ul class="btn-group2">
@@ -182,7 +193,7 @@
             </ul>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Footer -->
     <footer class="py-5 bg-" style="background-color: grey;">
       <div class="container">
@@ -208,6 +219,7 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
+
 
   </body>
 
