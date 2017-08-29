@@ -92,7 +92,7 @@ section#portfolio h5{
 }
 section#portfolio h1{
   position: absolute;
-  bottom: -115px;
+  bottom: -675px;
   left: 100px;
   color:red;
 }
@@ -101,9 +101,15 @@ section#portfolio h1{
 	
 }
 
+.exampleWork{
+  background-color: rgba(215, 203, 203, 0.4);
+
+
+}
 .projects{
   border: solid 1px black;
   margin: 1px;
+
 
 }
 
