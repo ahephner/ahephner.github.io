@@ -9,6 +9,15 @@ header {
 
 }
 
+#link{
+  display: none;
+
+}
+
+#link a{
+  font-size: 20px;
+}
+
 
 nav p {
   color: white;
