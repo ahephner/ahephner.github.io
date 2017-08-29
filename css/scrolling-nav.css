@@ -90,12 +90,7 @@ section#portfolio h5{
       color: black;
 
 }
-section#portfolio h1{
-  position: absolute;
-  bottom: -900px;
-  left: 100px;
-  color:red;
-}
+
 .lead{
 	font-family: arial, "Times New Roman";
 	
