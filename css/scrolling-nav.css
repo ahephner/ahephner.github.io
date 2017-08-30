@@ -14,9 +14,7 @@ header {
 
 }
 
-#link a{
-  font-size: 20px;
-}
+
 
 
 nav p {
@@ -59,11 +57,8 @@ section {
 section#about{
 	background-color: #F7F7F7;
 }
-section#about h1{
-  position: absolute;
-  top: 425px;
-  left: 100px;
-  color: red;
+section#about a{
+ font-size: 19px
 }
 
 section .happy{
@@ -75,8 +70,9 @@ section .happy{
   border-left: black solid 4px;
   border-bottom: black solid 4px;
 }
-section .projects{
-  height: 
+/*this seperatedblocks*/  section .projects{
+
+  margin: 15px;
 }
 
 }
@@ -85,7 +81,10 @@ hr.style-two {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+#portfolio{
+    background-color: #B2E4F5;
 
+}
 section#portfolio h5{
       color: black;
 
@@ -127,6 +126,7 @@ section#portfolio h5{
   border: black solid 1px;
   border-radius: 0.5em;
   padding: 4px;
+  align-content: center;
 }
 
 
