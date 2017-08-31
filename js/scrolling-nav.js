@@ -1,5 +1,5 @@
             $(document).ready(function(){
-              alert("JQuery is active")
+              // alert("JQuery is active")
 
 
             $(".happy").hover(function(e) {
@@ -26,6 +26,10 @@
                       });
                   }
             });
+
+        ("#boxes").hover(function(){
+          $(this).shake();
+        })
 
             // $( document ).ready(function() {
             //     $(".happy")[0].hover(); 
