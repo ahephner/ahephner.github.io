@@ -54,6 +54,15 @@ section {
 
 }
 
+.list-inline li{
+  display: inline;
+  margin: 8px;
+}
+#resume{
+  color: white;
+  border-radius: 4px;
+
+}
 section#about{
 	background-color: #F7F7F7;
 }
