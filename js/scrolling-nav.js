@@ -1,5 +1,5 @@
             $(document).ready(function(){
-              // alert("JQuery is active")
+            //   alert("JQuery is active")
 
 
             $(".happy").hover(function(e) {
