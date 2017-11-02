@@ -14,9 +14,16 @@ header {
 
 }
 
+#size{
+  height: 250px;
+  width: 350px;
+  padding: 15px;
+}
 
-
-
+#portImg{
+  height: 200px;
+  width: 300px;
+}
 nav p {
   color: white;
   font-size: 75%
@@ -92,9 +99,10 @@ hr.style-two {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-color: F7F7F7;
 }
 #portfolio{
-    background-color: #B2E4F5;
+    background-color: #F7F7F7;
 
 }
 section#portfolio h5{
@@ -178,4 +186,7 @@ footer h6{
     position:absolute;
     z-index:2;
     opacity: 1.0;    
+}
+#line{
+background-color: F7F7F7; 
 }
