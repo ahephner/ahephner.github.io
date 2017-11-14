@@ -18,6 +18,8 @@ header {
   height: 250px;
   width: 350px;
   padding: 15px;
+  margin-right: 2em; 
+  margin-top: 2.5em; 
 }
 
 #portImg{
@@ -26,7 +28,7 @@ header {
 }
 nav p {
   color: white;
-  font-size: 75%
+  font-size: 75%;
   margin-top: 50px;
 }
 img{
@@ -94,17 +96,17 @@ section .happy{
   margin: 15px;
 }
 
-}
+
 hr.style-two {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     background-color: F7F7F7;
 }
-#portfolio{
+/* #portfolio{
     background-color: #F7F7F7;
 
-}
+} */
 section#portfolio h5{
       color: black;
 
@@ -174,6 +176,7 @@ footer h6{
   align-self: center;
   width: 60px;
   color: white;
+  margin-top: 5px; 
 }
 .image_frame {
     width:100%;
