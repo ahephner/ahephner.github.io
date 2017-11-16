@@ -120,66 +120,271 @@
     </div>
       <div class="container">
         <div class="row">
-
+          
             <div id="size"class="col-md-3 portfolio-item projects exampleWork">
-                <a class="portfolio-link" href="page1.html" target="_blank">
+                <span  class="portfolio-link" data-toggle="modal" data-target="#mia">
                 <img id="portImg" src="img/ang.png" class="screenShot" alt="example">
                 <h5> Angular 4 with Firebase</h5>
-              </a>
+              </span>
          </div> 
-
+         
          <div id="size" class="col-md-3 portfolio-item projects exampleWork">
-            <a class="portfolio-link" href="https://ajh-capstone.herokuapp.com/welcome" target="_blank">
+            <span class="portfolio-link" data-toggle="modal" data-target="#capstone">
             <img  id="portImg" src="img/capstone.png" class="screenShot" alt="example">
             <h5>MEAN App</h5>
-          </a>
+          </span>
      </div> 
 
      <div id="size" class="col-md-3 portfolio-item projects exampleWork">
-      <a class="portfolio-link" href="https://ajh-bucket-client.herokuapp.com/" target="_blank">
+      <span class="portfolio-link"  data-toggle="modal" data-target="#react">
        <img  id="portImg" src="img/redux.png" class="screenShot" alt="example">
        <h5> React/Redux</h5>
-    </a>
+    </span>
 </div> 
          
-             <div id="size" class="col-md-3 portfolio-item projects exampleWork" id="boxes">
-                <a class="portfolio-link" href="https://pelotonindy.firebaseapp.com/" target=_"blank">
+             <div id="size" class="col-md-3 portfolio-item projects exampleWork" id="#boxes">
+                <span class="portfolio-link" data-toggle="modal" data-target="webwire">
                   <img  id="portImg" src="img/bikeStore.png" class="screenShot" alt="example">
                   <h5> Web wire store </h5>
-                  </a>
+                  </s>
              </div>   
           
      
              <div id="size" class="col-md-3 portfolio-item projects exampleWork">
-              <a class="portfolio-link" href="https://ajh-ajaxchallenge.herokuapp.com/" target="_blank">
+              <span class="portfolio-link" data-toggle="modal" data-target="#jQuery">
                <img  id="portImg" src="img/api.png" class="screenShot" alt="example">
                <h5> API Website with jQuery</h5>
-            </a>
+            </span>
        </div>   
 
             <div id="size" class="col-md-3 portfolio-item projects exampleWork">
-                <a class="portfolio-link" href="https://github.com/ahephner/VanillaJS30projects" target="_blank">
+                <span class="portfolio-link" data-toggle="modal" data-target="#jsProject">
                  <img  id="portImg" src="img/ice.jpg" class="screenShot" alt="example">
                  <h5>Vanilla JS Projects Library</h5>
-              </a>
+              </s>
          </div>            
 
             <div id="size" class="col-md-3 portfolio-item projects exampleWork">
-                <a class="portfolio-link" href="https://github.com/ahephner/jsfundamentals" target="_blank">
+                <span class="portfolio-link" data-toggle="modal" data-target="#jsLibrary">
                 <img  id="portImg" src="img/js.png" class="screenShot" alt="example">
                 <h5> JavaScript Library</h5>
-              </a>
+              </span>
          </div> 
        
          <div id="size" class="col-md-3 portfolio-item projects exampleWork">
-          <a class="portfolio-link" href="https://github.com/ahephner/cSharpLibrary" target="_blank">
+          <span class="portfolio-link" data-toggle="modal" data-target="#cLibrary">
           <img  id="portImg" src="img/cs.png" class="screenShot" alt="example">
           <h5> C# Library</h5>
-        </a>
+        </s>
    </div> 
             <!-- For extra boxs to place new projects copy and past current example then replace info. Eventually need to work with margins -->
       </div>
     </section>
+
+    <!-- modals -->
+
+    <div class="modal fade" id="mia" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Project Summary</h4>
+                    </div>
+                      <div class="modal-body">
+                        <h6><strong>Remempath Team Project</strong></h6>
+                        <ul>
+                          <li>Worked within a team to create a technical design document</li>
+                              <li> Scaffold main components according to wireframes in the technical document</li>
+                                  <li>Team Git was used. Approved of pull requests</li>
+                                      <li>Team Git was used. Approved of pull requests</li>
+                                      <li>Added user ability to create, update and delete videos as needed with data persisting to Firebase</li>
+                                          <li>Consulted Firebase2 docs for above ability</li>
+                                              <li>Used Jira to fix bugs and track improvements needed</li> 
+                                                  <li>Communicated with client to update on project status and any design or functionality changes as requested</li>
+                                                      <li>Used Agile principles to accomplish goals and worked in 2 week sprints </li>
+                              
+                        </ul>
+                    </div>
+                  <div class="modal-footer">
+               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               <a href="https://remempathy-us.firebaseapp.com/home" target=""> <button type="button" class="btn btn-primary">Visit Site</button></a>
+             </div>
+           </div>
+         </div>
+       </div>
+
+    
+   <div class="modal fade" id="capstone" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Project Summary</h4>
+                </div>
+                  <div class="modal-body">
+                  <h6><strong>Capstone Project</strong></h6>
+                  <ul>
+                    <li>Built with Angular 4</li>
+                    <li>Built with Bootstrap</li>
+                    <li>MongoDB</li>
+                    <li>Added authentication</li>
+                    <li>Git</li>
+                    <li>Wrote Tech Documents</li>
+                  </ul>
+                </div>
+              <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           <a href="https://ajh-capstone.herokuapp.com/welcome" target=""> <button type="button" class="btn btn-primary">Visit Site</button></a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+<div class="modal fade" id="react" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Project Summary</h4>
+                </div>
+                  <div class="modal-body">
+                  <h6><strong>Bucket List </strong></h6>
+                  <ul>
+                    <li>Followed Technical documentation for design and layout</li>
+                        <li>Git </li>
+                            <li> App used an YouTube API query to return video information and playback </li> 
+                                <li> Authentication and ability to save information to their own profile</li>
+                                    <li>Launched with Heroku</li>
+                                        <li> Jira tickets for updating and bug fix tracking</li>
+                        
+                  </ul>
+                </div>
+              <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           <a href="https://ajh-bucket-client.herokuapp.com/" target=""> <button type="button" class="btn btn-primary">Visit Site</button></a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+<div class="modal fade" id="webwire" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Project Summary</h4>
+                </div>
+                  <div class="modal-body">
+                    <h6><strong>WebWire Store</strong></h6>
+                    <ul>First website</ul>
+                    <ul>Firebase launch</ul>
+                    <ul>HTML and CSS only</ul>
+                </div>
+              <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           <a href="https://pelotonindy.firebaseapp.com/" target=""> <button type="button" class="btn btn-primary">Visit Site</button></a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+<div class="modal fade" id="jQuery" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Project Summary</h4>
+                </div>
+                  <div class="modal-body">
+                  <h6><strong>API CAll</strong></h6>
+                  <ul>Made with jQuery</ul>
+                  <ul>Requiring working with API</ul>
+                  <ul>Designed with Bootstrap</ul>
+                  <ul>Launched on Heroku</ul>
+                  
+                </div>
+              <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           <a href="https://ajh-ajaxchallenge.herokuapp.com/" target=""> <button type="button" class="btn btn-primary">Visit Site</button></a>          
+         </div>
+       </div>
+     </div>
+   </div>
+
+<div class="modal fade" id="jsProject" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Project Summary</h4>
+                </div>
+                  <div class="modal-body">
+                  <h6><strong>Vanilla JavaScript Projects</strong></h6>
+                  <ul>
+                    <li>Improving fundamental JavaScript understanding</li>
+                    <li>Projects come with mostly completed HTML & CSS. I then added JavaScript to make the page function</li>
+                    <li>Projects Come from Wes Boss </li>
+                    <li>Visit for more info:</li>
+                    <li>https://javascript30.com/</li>
+                  </ul>
+                </div>
+              <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           <a href="https://github.com/ahephner/VanillaJS30projects" target=""> <button type="button" class="btn btn-primary">Visit Site</button></a>
+         </div>
+       </div>
+     </div>
+   </div>
+
+<div class="modal fade" id="jsLibrary" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Summary of Project</h4>
+                </div>
+                  <div class="modal-body">
+                  <h6><strong>JavaScript Library</strong></h6>
+                  <ul>
+                    <li>Establish base of JavaScript knowledge </li>
+                    <li>Improve knowledge</li>
+                    <li>Requirement of Eleven Fifty Schooling</li>
+                  </ul>
+                </div>
+              <div class="modal-footer"><a href="https://github.com/ahephner/jsfundamentals" target="_blank"> <button type="button" class="btn btn-primary">Visit Site</button></a>
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+           
+         </div>
+       </div>
+     </div>
+   </div>
+
+<div class="modal fade" id="cLibrary" role="dialog">
+ <div class="modal-dialog">
+   <div class="modal-content">
+      <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title">Summary of Project</h4>
+             </div>
+               <div class="modal-body">
+               <h6>Project Highlights</h6>
+               <ul>
+                 <li>Learning C#</li>
+                 <li>Learning to use Visual Studio</li>
+               </ul>
+             </div>
+           <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+       <a href="https://github.com/ahephner/cSharpLibrary" target=""> <button type="button" class="btn btn-primary">Visit Site</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+      </div>
+  </div>
+ </div> 
 
                         <hr id="line" class="style-two">
                         <hr id="line" class="style-two">
