@@ -1,6 +1,11 @@
             $(document).ready(function(){
             //   alert("JQuery is active")
-
+            //this close modal after clicking link to visit site
+            //make sure to use target="_blank" to open in new tab and keep your portfolio on their browser
+            $(".bye").on("click", function(){
+               $(".gone").modal("hide");
+                console.log("i was clicked");
+          });
 
             $(".happy").hover(function(e) {
                   e.preventDefault();
@@ -27,39 +32,10 @@
                   }
             });
 
-        ("#boxes").hover(function(){
-          $(this).shake();
-        })
+       
 
-            // $( document ).ready(function() {
-            //     $(".happy")[0].hover(); 
-            // });
-
-            // $("#link1, .screenShot").mouseout(function(e) {
-            //       e.preventDefault();
-            //       if($(this).is("img"))
-            //       {
-            //           $(".screenShot").stop().fadeOut('slow', function(e) {
-            //               $('#link1').stop().fadeOut('slow', function(e) {
-            //                   $(".screenShot").stop().fadeIn('slow');
-            //               });
-            //           });
-            //       }
-            //       else
-            //       {
-            //           $('#link1').stop().fadeOut('slow', function(e) {
-            //               $(".screenShot").stop().fadeIn('slow');
-            //           });
-            //       }
-            // });
-
-            // $( document ).ready(function() {
-            //     $(".screenShot")[0].hover(); 
-            // });
-
-
-
-            });
+   
+ });
 
 
 
