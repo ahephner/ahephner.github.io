@@ -95,11 +95,11 @@ section#about a{
  font-size: 19px
 }
 
-section .happy{
+ section .happy{
   
   width: 425px;
   height: 500px;
-}
+} 
 .myStory{
   border-left: black solid 4px;
   border-bottom: black solid 4px;
