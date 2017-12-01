@@ -206,3 +206,11 @@ footer h6{
 #line{
 background-color: F7F7F7; 
 }
+
+.button:hover {
+  cursor: pointer;
+}
+
+.projects:hover {
+  cursor: pointer;
+}
